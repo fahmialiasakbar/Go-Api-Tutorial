@@ -1,0 +1,7 @@
+Command
+
+Get
+curl localhost:8081/books
+
+Add
+curl localhost:8081/books --include --header "Content-Type: application/json" -d @body.json --request "POST"
